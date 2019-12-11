@@ -3,18 +3,15 @@
 
 - [Introduction](#introduciton)
 - [Tutorial](#tutorial)
-    - [Description](##Description)
-    - [Requirements](###Requirements)
-        - [Darknet](#####Darknet)
-        - [Yolo_mark](#####Yolo_mark)
-- [Usage](#usage)
-    - [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
-- [Maintainers](#maintainers)
-- [Contributing](#contributing)
-- [License](#license)
+    - [Description](#Description)
+    - [Requirements](#Requirements)
+        - [Darknet](#Darknet)
+        - [Yolo_mark](#Yolo_mark)
+    - [Project structure](#Project-structure)
+    - [Lable image](#Lable-image)
+    - [Begin train](#Begin-train)
+- [Now result](#Now-result)
+
 
 # Introduction
 
@@ -36,8 +33,9 @@ For more details, look at [rules](https://www.charnwood.gov.uk/pages/green_recyc
 ## Requirements
 
 We need to prepare several tools before we begin.
-### [* Darkent(AlexeyAB)](https://github.com/AlexeyAB/darknet)
+### [1.Darkent(AlexeyAB)](https://github.com/AlexeyAB/darknet)
 I recommend AlexeyAB's version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
+
 I simply copy some guidlines from his github to teach you how to install darknet on linux. For more deatails, look at [Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake)
 ```sh
 $ git clone https://github.com/AlexeyAB/darknet.git
@@ -61,58 +59,139 @@ $ ./darknet imtest data/eagle.jpg
 ```
 If you get a bunch of windows with eagles in them you've succeeded! 
 
-### * [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
+### [2.Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
 
-## Usage
+This is a visual GUI-software for marking bounded boxes of objects and generating annotation files for Yolo v2 & v3
 
-This is only a documentation package. You can print out [spec.md](spec.md) to your console:
+I simply copy some guidlines from his github to teach you how to install Yolo_mark on linux. For more deatails, look at [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
 
-```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
+* To compile on **Linux** type in console 2 commands:
+    ```
+    cmake .
+    make
+    ```
+
+## Project structure
+
+This is part of project structure:
+
+    .
+    ├── darknet.data
+    ├── data
+    │   ├── obj
+    |   ├── obj.data
+    │   ├── obj.names
+    │   ├── test.txt
+    │   └── train.txt
+    ├── weights
+    ├── yolov3-tiny.cfg
+    └── yolov3-tiny.conv.15
+
+* `datknet.data` : Configuration for training
+* `data\obj` : Directory to save images
+* `obj.data` : Configuration for training
+* `data\obj.names` : List with object names
+* `data\test.txt` : List of image filenames for testing
+* `data\train.txt` : List of image filenames for training
+* `weights` : Directory to save trained weights
+* `yolov3-tiny.cfg` : Structure of yolov3-tiny
+* `yolov3-tiny.conv.15` : Pre-trained weight
+
+
+## Lable image
+
+1.Put collected images into `data\obj`. 
+
+2.Create `compress.py` file and insert the following code:
+
+```
+import os
+import glob
+from PIL import Image
+
+def thumbnail_pic(path):
+    path_save = "output/"
+    a = glob.glob(r'*.jpg')
+    for x in a:
+        name = os.path.join(path, x)
+        im = Image.open(name)
+        im.thumbnail((416, 416))
+        print(im.format, im.size, im.mode)
+        name = os.path.join(path_save, x)
+        im.save(name, 'JPEG')
+    print('Done!')
+
+if __name__ == '__main__':
+    path = '.'
+    thumbnail_pic(path)
 ```
 
-### Generator
+This wil help you to change the size of image to 416 X 416. This will help you save time during training. `416 X 416` is defined in  yolov3-tiny.cfg as input width and height. You can change this to the size you like.
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
-
-## Badge
-
-If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
-
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-To add in Markdown format, use this code:
+3.After resize, cd to Yolom_mark directory and open linux_mark.sh, it looks like:
 
 ```
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+echo     Example how to start marking bouded boxes for training set Yolo v2
+
+
+./yolo_mark x64/Release/data/img x64/Release/data/train.txt x64/Release/data/obj.names
+
+
+pause
 ```
 
-## Example Readmes
+change line 4 to your directory, for me it is 
 
-To see how the specification has been applied, see the [example-readmes](example-readmes/).
+    ./yolo_mark /home/leon/Downloads/Real_time_recyclable_object_detection/IntData_01/img /home/leon/Downloads/Real_time_recyclable_object_detection/IntData_01/train.txt /home/leon/Downloads/Real_time_recyclable_object_detection/IntData_01/obj.name
 
-## Related Efforts
+4.Change numer of classes (objects for detection) in file `obj.data`, in this project it will be:
 
-- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
-- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
+```
+classes = 9
+train  = data/train.txt
+valid  = data/test.txt
+names = data/obj.names
+backup = backup/
+```
 
-## Maintainers
+5.Put names of objects, one for each line in file `obj.name`, in this project it will be:
+```
+batteries
+Cans_Tins
+Cardboard
+cups
+Glass
+Paper
+Plastics
+FoodWaste
+GeneralWaste
+```
 
-[@RichardLitt](https://github.com/RichardLitt).
+6.Begin label by typing in console 2 commands:
+```
+chmod +x linux_mark.sh
+./linux_mark.sh
+```
 
-## Contributing
+## Begin train
 
-Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
+1. Open file `yolov3-tiny.cfg` and:
 
-Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+  * change line batch to `batch=64`
+  * change line subdivisions to `subdivisions=32`
+  * change line max_batches to `classes*2000`, in this project it will be `18000` 
+  * change line steps to 80% and 90% of max_batches, in this project it will be `steps=14400,16200`
+  * change line `classes=9` to your number of objects in each of `[yolo]`-layers:
+  * change [`filters=42`] to filters=(classes + 5)x3 in the `[convolutional]` before each `[yolo]` layer
 
-### Contributors
+2. Download default weights file for yolov3-tiny: https://pjreddie.com/media/files/yolov3-tiny.weights
 
-This project exists thanks to all the people who contribute. 
-<a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
+3. Get pre-trained weights `yolov3-tiny.conv.15` using command: `darknet.exe partial cfg/yolov3-tiny.cfg yolov3-tiny.weights yolov3-tiny.conv.15 15`
 
-
-## License
-
-[MIT](LICENSE) © Richard Littauer
+4. Start training by using the command line: 
+     
+   To train on Linux use command: 
+    ```
+    ./darknet detector train /home/leon/Downloads/Real_time_recyclable_object_detection/darknet2.data /home/leon/Downloads/Real_time_recyclable_object_detection/yolov3-tiny.cfg /home/leon/Downloads/Real_time_recyclable_object_detection/yolov3-tiny.conv.15 > /home/leon/Downloads/Real_time_recyclable_object_detection/trainInt.log -map
+    ```
+#Now result
