@@ -1,10 +1,12 @@
 # Real-time-recyclable-object-detection
-## Table of Contents
+# Table of Contents
 
 - [Introduction](#introduciton)
 - [Tutorial](#tutorial)
-    - [Description](#Description)
-    - [Requirements](#Requirements)
+    - [Description](##Description)
+    - [Requirements](###Requirements)
+        - [Darknet](#####Darknet)
+        - [Yolo_mark](#####Yolo_mark)
 - [Usage](#usage)
     - [Generator](#generator)
 - [Badge](#badge)
@@ -14,7 +16,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+# Introduction
 
 This project involves the development of a tool for detecting (in real-time) which household waste can be recycled. **The rule for recycling is based on Loughborough University's rule.**
 
@@ -23,15 +25,19 @@ The goals for this projects are:
 1. A well trained deep neural network which is based on tiny-yolo to recognise recyclable items in real-time via a camera.
 2. An simple app based on this well well trained deep neural network.
 
-## Tutorial
-### Description
+# Tutorial
+
+## Description
+
 This part is a tutorial to teach you how to use the YOLO object detector to detect objects. In this project, the obejects are household wastes. According to Loughborough University's recycling rule we have 9 classes, batteries, Cans_Tins, Cardboard, cups, Glass, Paper, Plastics, FoodWaste, GeneralWaste.
 
 For more details, look at [rules](https://www.charnwood.gov.uk/pages/green_recycling_bin) and [Right Stuff, Right Bin .pdf ](https://www.lboro.ac.uk/media/wwwlboroacuk/content/facilitiesmanagement/downloads/intranetdept/fmhealthsafety/Right%20Stuff,%20Right%20Bin%20.pdf)
 
-### Requirements
+## Requirements
+
 We need to prepare several tools before we begin.
-[Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake), I recommend AlexeyAB's version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
+### [* Darkent(AlexeyAB)](https://github.com/AlexeyAB/darknet)
+I recommend AlexeyAB's version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
 I simply copy some guidlines from his github to teach you how to install darknet on linux. For more deatails, look at [Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake)
 ```sh
 $ git clone https://github.com/AlexeyAB/darknet.git
@@ -54,6 +60,8 @@ After `make`, try this command
 $ ./darknet imtest data/eagle.jpg
 ```
 If you get a bunch of windows with eagles in them you've succeeded! 
+
+### * [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
 
 ## Usage
 
