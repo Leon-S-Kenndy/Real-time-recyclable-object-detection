@@ -208,4 +208,5 @@ provide settings for users when they face different rubbish bin
 
 to detect video in real-time
 
+try to improve model
 
