@@ -195,3 +195,17 @@ chmod +x linux_mark.sh
     ./darknet detector train /home/leon/Downloads/Real_time_recyclable_object_detection/darknet2.data /home/leon/Downloads/Real_time_recyclable_object_detection/yolov3-tiny.cfg /home/leon/Downloads/Real_time_recyclable_object_detection/yolov3-tiny.conv.15 > /home/leon/Downloads/Real_time_recyclable_object_detection/trainInt.log -map
     ```
 # Now result
+
+
+can run the original yolov3-tiny on Android to detect photos
+(Android settings NDK16 √ NDK21 ×)
+
+To-do:
+
+move the customed model to Android
+
+provide settings for users when they face different rubbish bin
+
+to detect video in real-time
+
+
