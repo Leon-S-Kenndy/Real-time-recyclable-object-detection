@@ -1,5 +1,0 @@
-classes = 9
-train  = /home/leon/Downloads/Real_time_recyclable_object_detection/IntData_01/train.txt
-valid  = /home/leon/Downloads/Real_time_recyclable_object_detection/IntData_01/test.txt
-names = /home/leon/Downloads/Real_time_recyclable_object_detection/IntData_01/obj.names
-backup = /home/leon/Downloads/Real_time_recyclable_object_detection/weights_Int_01/
