@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/../../../Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
+    "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/leon/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "darknetlib-Release-x86": {
+      "artifactName": "darknetlib",
+      "buildCommand": "/home/leon/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86 --target darknetlib",
+      "abi": "x86",
+      "output": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/build/intermediates/cmake/debug/obj/x86/libdarknetlib.so"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+[
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/activation_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/activation_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/activation_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/activations.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/activations.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/activations.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/avgpool_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/avgpool_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/avgpool_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/batchnorm_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/batchnorm_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/batchnorm_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/blas.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/blas.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/blas.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/box.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/box.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/box.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/col2im.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/col2im.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/col2im.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/connected_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/connected_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/connected_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/convolutional_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/convolutional_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/convolutional_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/cost_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/cost_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/cost_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/crnn_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/crnn_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/crnn_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/crop_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/crop_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/crop_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/cuda.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/cuda.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/cuda.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/data.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/data.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/data.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/deconvolutional_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/deconvolutional_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/deconvolutional_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/demo.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/demo.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/demo.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/detection_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/detection_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/detection_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/dropout_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/dropout_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/dropout_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/gemm.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/gemm.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/gemm.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/gru_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/gru_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/gru_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/im2col.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/im2col.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/im2col.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/image.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/image.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/image.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/l2norm_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/l2norm_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/l2norm_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/list.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/list.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/list.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/local_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/local_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/local_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/logistic_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/logistic_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/logistic_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/lstm_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/lstm_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/lstm_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/matrix.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/matrix.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/matrix.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/maxpool_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/maxpool_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/maxpool_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/network.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/network.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/network.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/normalization_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/normalization_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/normalization_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/option_list.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/option_list.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/option_list.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/parser.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/parser.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/parser.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/region_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/region_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/region_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/reorg_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/reorg_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/reorg_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/rnn_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/rnn_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/rnn_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/route_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/route_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/route_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/shortcut_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/shortcut_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/shortcut_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/softmax_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/softmax_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/softmax_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/tree.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/tree.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/tree.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/upsample_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/upsample_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/upsample_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/utils.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/utils.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/utils.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknet/src/yolo_layer.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/yolo_layer.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/yolo_layer.c"
+},
+
+{
+  "directory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/leon/Android/Sdk/ndk/16.1.4479499/sysroot -Ddarknetlib_EXPORTS -I../../../../src/main/cpp/darknet/src -I../../../../src/main/cpp/darknet/include  -isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC   -o CMakeFiles/darknetlib.dir/src/main/cpp/darknetlib.c.o   -c /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknetlib.c",
+  "file": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknetlib.c"
+}
+]

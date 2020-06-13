@@ -1,0 +1,255 @@
+{
+  "buildFiles": [
+    "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/../../../Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
+    "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/leon/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "darknetlib-Release-arm64-v8a": {
+      "buildCommand": "/home/leon/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target darknetlib",
+      "buildType": "release",
+      "toolchain": "4036118319",
+      "abi": "arm64-v8a",
+      "artifactName": "darknetlib",
+      "files": [
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/activation_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/activations.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/avgpool_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/batchnorm_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/blas.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/box.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/col2im.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/connected_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/convolutional_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/cost_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/crnn_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/crop_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/cuda.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/data.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/deconvolutional_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/demo.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/detection_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/dropout_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/gemm.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/gru_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/im2col.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/image.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/l2norm_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/list.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/local_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/logistic_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/lstm_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/matrix.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/maxpool_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/network.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/normalization_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/option_list.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/parser.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/region_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/reorg_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/rnn_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/route_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/shortcut_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/softmax_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/tree.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/upsample_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/utils.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknet/src/yolo_layer.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        },
+        {
+          "src": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/src/main/cpp/darknetlib.c",
+          "flags": "-isystem /home/leon/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c99 -fopenmp  -DOMP_NUM_THREADS=8 -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -O3 -fstrict-aliasing -fprefetch-loop-arrays  -fopenmp -fexceptions -Dlinux -fsigned-char -O2 -DNDEBUG  -fPIC  ",
+          "workingDirectory": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        }
+      ],
+      "output": "/home/leon/AndroidStudioProjects/YOLOV3-on-Android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdarknetlib.so"
+    }
+  },
+  "toolchains": {
+    "4036118319": {
+      "cCompilerExecutable": "/home/leon/Android/Sdk/ndk/16.1.4479499/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

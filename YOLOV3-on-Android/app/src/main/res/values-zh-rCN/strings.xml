@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yolo测试</string>
+    <string name="action_settings">设置</string>
+    <string name="capture">采集</string>
+    <string name="Danalyse">详细分析</string>
+    <string name="Ranalyse">粗略分析</string>
+    <string name="extract">解压模型</string>
+    <string name="selectimg">选择图片</string>
+    <string name="tip_start">第一次运行请解压模型</string>
+    <string name="copyright">Demo by Leon use darknet yolo-tiny</string>
+    <string name="contactme">关于</string>
+</resources>
