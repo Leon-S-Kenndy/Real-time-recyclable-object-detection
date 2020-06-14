@@ -41,7 +41,7 @@ This part is a tutorial to teach you how to use the YOLO object detector to dete
 
 For more details, look at [rules](https://www.charnwood.gov.uk/pages/green_recycling_bin) and [Right Stuff, Right Bin .pdf ](https://www.lboro.ac.uk/media/wwwlboroacuk/content/facilitiesmanagement/downloads/intranetdept/fmhealthsafety/Right%20Stuff,%20Right%20Bin%20.pdf)
 
-### [1.Complie Darkent(AlexeyAB) on Linux](https://github.com/AlexeyAB/darknet)
+### [1.Complie Darkent(AlexeyAB) on Linux]
 I recommend AlexeyAB's Darknet version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
 
 I simply copy some guidlines from his github to teach you how to install darknet on linux. For more deatails, look at [Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake)
@@ -62,11 +62,13 @@ $ ./darknet imtest data/eagle.jpg
 ```
 If you get a bunch of windows with eagles in them you've succeeded! 
 
-### [2.Label image(VOTT) ](https://github.com/Microsoft/VoTT/tree/v1)
+### [2.Label image(VOTT) ]
 
 VOTT is an open-source annotation and labeling tool for image and video assets.
 
 To use VOTT, download it from https://github.com/microsoft/VoTT/releases and choose version 1.7.2, because only VOTT 1 can export data in YOLO format. [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
+
+For more details, please check [VOTT](https://github.com/Microsoft/VoTT/tree/v1).
 
 #### [2.1Label image(VOTT) ]
 
