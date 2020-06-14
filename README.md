@@ -55,9 +55,47 @@ I use VOTT as the tool to label images. VOTT is an open-source annotation and la
 
 To use VOTT, download it from https://github.com/microsoft/VoTT/releases and choose version 1.7.2, because only VOTT 1 can export data in YOLO format. 
 
-I use VOTT on windows so here I only take windows VOTT as a example to show how to label images. For more details, please check [VOTT](https://github.com/Microsoft/VoTT/tree/v1).
+I use VOTT on windows so here I only take windows VOTT as a example to show how to label images. 
 
-Once you havb downloade VOTT, open it, you will see image like this ![这里随便写文字](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-1.png)
+Once you havb downloade VOTT, just do as the follow steps (these steps are based on VOTT1 github repository and change slight for this project. For more details, please check [VOTT](https://github.com/Microsoft/VoTT/tree/v1)):
+1. Open VOTT, select the option to tag an image directory, which is the red rectangle part in the image. 
+![STEP1](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-1.png)
+2. Configure the tagging job and specify the settings, the red rectangle part in the image is the name of the class that you want to label
+![STEP2](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-2.png)
+    **Tagging Region Type**:  type of bounding box for tagging regions<br>
+      - *Rectangle*: tag bounding boxes of any dimension
+      - *Square*: tag bounding boxes of auto-fixed dimensions
+
+    **Labels**: labels of the tagged regions (e.g. `Cat`, `Dog`, `Horse`, `Person`)<br>
+3. Tag each Image
+ 
+    ![STEP3](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-3.png)
+
+    **Tagging**: click and drag a bounding box around the desired area, then move or resize the region until it fits the object
+     - Selected regions appear as red ![red](https://placehold.it/15/f03c15/000000?text=+) and unselected regions will appear as blue ![#1589F0](https://placehold.it/15/1589F0/000000?text=+).
+     - Assign a tag to a region by clicking on it and selecting the desired tag from the labeling toolbar at the bottom of the tagging control
+     - Click the ![cleartags](media/cleartags.png) button to clear all tags on a given frame
+
+    **Navigation**: you can navigate between video frames by using the ![prev-nxt](media/prev-next.png) buttons, the left/right arrow keys, or the video skip bar
+     - Tags are auto-saved each time a frame is changed
+
+4.Export Image directory Tags using the Object Detection Menu or Ctrl/Cmd + E
+
+    ![VOTT5](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
+    
+    *Note on exporting: the tool reserves a random 20% sample of the tagged frames as a test set.*
+ 
+    Specify the following export configuration settings:
+    
+    ![VOTT5](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
+    
+    - **Export Format**: What framework to export to defaults to *CNTK*<br>
+    - **Export Frames Until**: how far into the video the export operation will proceed<br>
+      - *Last Tagged Region*: exports frames up until the last frame containing tags
+      - *Last Visited Frame*: exports frames up until the last frame that the user explicitly visited
+      - *Last Frame*: exports all video frames<br>
+    - **Output directory**: directory path for exporting training data<br>
+    
 
 
 ## Project structure
