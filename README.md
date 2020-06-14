@@ -54,13 +54,9 @@ If you get a bunch of windows with eagles in them you've succeeded!
 
 VOTT is an open-source annotation and labeling tool for image and video assets.
 
-I simply copy some guidlines from his github to teach you how to install Yolo_mark on linux. For more deatails, look at [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
+To use VOTT, download it from https://github.com/microsoft/VoTT/releases and choose version 1.7.2, because only VOTT 1 can export data in YOLO format. [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
 
-* To compile on **Linux** type in console 2 commands:
-    ```
-    cmake .
-    make
-    ```
+#### [2.1Label image(VOTT) ]
 
 ## Project structure
 
