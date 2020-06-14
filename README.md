@@ -132,7 +132,7 @@ This wil help you to change the size of image to 416 X 416. This will help you s
     **Navigation**: you can navigate between video frames by using the ![prev-nxt](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/prev-next.png) buttons, the left/right arrow keys, or the video skip bar
      - Tags are auto-saved each time a frame is changed
 6.Export Image directory Tags using the Object Detection Menu or Ctrl/Cmd + E
-    ![VOTT5](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
+    ![VOTT4](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
     *Note on exporting: the tool reserves a random 20% sample of the tagged frames as a test set.*
     Specify the following export configuration settings:
     ![VOTT5](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
