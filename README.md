@@ -133,8 +133,9 @@ This wil help you to change the size of image to 416 X 416. This will help you s
      - Tags are auto-saved each time a frame is changed
 6.Export Image directory Tags using the Object Detection Menu or Ctrl/Cmd + E
 
-![VOTT4](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
-    *Note on exporting: the tool reserves a random 20% sample of the tagged frames as a test set.*
+![VOTT4](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-4.png)
+
+*Note on exporting: the tool reserves a random 20% sample of the tagged frames as a test set.*
     Specify the following export configuration settings:
     ![VOTT5](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/VOTT-5.png)
     - **Export Format**: What framework to export to defaults to *CNTK*<br>
