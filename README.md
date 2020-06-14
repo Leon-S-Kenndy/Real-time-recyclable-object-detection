@@ -4,7 +4,7 @@
 - [Introduction](#introduciton)
 - [Tutorial](#tutorial)
     - [Description](#Description)
-    - [Complie Darkent(AlexeyAB) on Linux](#complie-darkent-alexeyab--on-linux-)
+    - [Complie Darkent(AlexeyAB) on Linux](#complie-darkent-alexeyab--on-linux)
     - [Yolo_mark](#Yolo_mark)
     - [Project structure](#Project-structure)
     - [Lable image](#Lable-image)
@@ -41,7 +41,7 @@ This part is a tutorial to teach you how to use the YOLO object detector to dete
 
 For more details, look at [rules](https://www.charnwood.gov.uk/pages/green_recycling_bin) and [Right Stuff, Right Bin .pdf ](https://www.lboro.ac.uk/media/wwwlboroacuk/content/facilitiesmanagement/downloads/intranetdept/fmhealthsafety/Right%20Stuff,%20Right%20Bin%20.pdf)
 
-### [1.Complie Darkent(AlexeyAB) on Linux]
+### [Complie Darkent(AlexeyAB) on Linux]
 I recommend AlexeyAB's Darknet version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
 
 I simply copy some guidlines from his github to teach you how to install darknet on linux. For more deatails, look at [Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake)
