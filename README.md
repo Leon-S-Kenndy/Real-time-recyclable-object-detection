@@ -4,14 +4,25 @@
 - [Introduction](#introduciton)
 - [Tutorial](#tutorial)
     - [Description](#Description)
-    - [Requirements](#Requirements)
-        - [Darknet](#Darknet)
-        - [Yolo_mark](#Yolo_mark)
+    - [Complie Darkent on Linux](#complie-darkent-on-linux)
+    - [Yolo_mark](#Yolo_mark)
     - [Project structure](#Project-structure)
     - [Lable image](#Lable-image)
     - [Begin train](#Begin-train)
 - [Now result](#Now-result)
 
+- [Introduction](#introduction)
+- [Tutorial](#tutorial)
+  * [Description](#description)
+    + [[1.Complie Darkent(AlexeyAB) on Linux]](#-1complie-darkent-alexeyab--on-linux-)
+    + [[2.Label image(VOTT) ]](#-2label-image-vott---)
+      - [[2.1Label image(VOTT) ]](#-21label-image-vott---)
+  * [Project structure](#project-structure)
+  * [Lable image](#lable-image)
+  * [Begin train](#begin-train)
+- [Now result](#now-result)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Introduction
 
@@ -30,46 +41,36 @@ This part is a tutorial to teach you how to use the YOLO object detector to dete
 
 For more details, look at [rules](https://www.charnwood.gov.uk/pages/green_recycling_bin) and [Right Stuff, Right Bin .pdf ](https://www.lboro.ac.uk/media/wwwlboroacuk/content/facilitiesmanagement/downloads/intranetdept/fmhealthsafety/Right%20Stuff,%20Right%20Bin%20.pdf)
 
-## Requirements
-
-We need to prepare several tools before we begin.
-### [1.Darkent(AlexeyAB)](https://github.com/AlexeyAB/darknet)
-I recommend AlexeyAB's version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
+### [Complie Darkent on Linux]
+I recommend AlexeyAB's Darknet version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
 
 I simply copy some guidlines from his github to teach you how to install darknet on linux. For more deatails, look at [Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake)
-```sh
-$ git clone https://github.com/AlexeyAB/darknet.git
-$ cd darknet
-$ make
-```
-Before make, you can set such options in the `Makefile`
+
+To complie, just do make in the Real_time_recyclable_object_detection directory in command line 
+Before make, you can set such options in the  `Makefile`: [link](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/Real_time_recyclable_object_detection/Makefile)
 * `GPU=1` to build with CUDA to accelerate by using GPU (CUDA should be in `/usr/local/cuda`)
 * `CUDNN=1` to build with cuDNN v5-v7 to accelerate training by using GPU (cuDNN should be in `/usr/local/cudnn`)
 * `CUDNN_HALF=1` to build for Tensor Cores (on Titan V / Tesla V100 / DGX-2 and later) speedup Detection 3x, Training 2x
 * `OPENCV=1` to build with OpenCV 4.x/3.x/2.4.x - allows to detect on video files and video streams from network cameras or web-cams
 * `DEBUG=1` to bould debug version of Yolo
 * `OPENMP=1` to build with OpenMP support to accelerate Yolo by using multi-core CPU
-* `LIBSO=1` to build a library `darknet.so` and binary runable file `uselib` that uses this library. Or you can try to run so `LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH ./uselib test.mp4` How to use this SO-library from your own code - you can look at C++ example: https://github.com/AlexeyAB/darknet/blob/master/src/yolo_console_dll.cpp
-    or use in such a way: `LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH ./uselib data/coco.names cfg/yolov3.cfg yolov3.weights test.mp4`
-* `ZED_CAMERA=1` to build a library with ZED-3D-camera support (should be ZED SDK installed), then run
-    `LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH ./uselib data/coco.names cfg/yolov3.cfg yolov3.weights zed_camera`
-After `make`, try this command
+* `LIBSO=1` to build a library `darknet.so` and binary runable file `uselib` that uses this library. 
+
+After `make`, try this command in command line in the Real_time_recyclable_object_detection directory
 ```sh
 $ ./darknet imtest data/eagle.jpg
 ```
 If you get a bunch of windows with eagles in them you've succeeded! 
 
-### [2.Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
+### [2.Label image(VOTT) ]
 
-This is a visual GUI-software for marking bounded boxes of objects and generating annotation files for Yolo v2 & v3
+VOTT is an open-source annotation and labeling tool for image and video assets.
 
-I simply copy some guidlines from his github to teach you how to install Yolo_mark on linux. For more deatails, look at [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
+To use VOTT, download it from https://github.com/microsoft/VoTT/releases and choose version 1.7.2, because only VOTT 1 can export data in YOLO format. [Yolo_mark](https://github.com/AlexeyAB/Yolo_mark)
 
-* To compile on **Linux** type in console 2 commands:
-    ```
-    cmake .
-    make
-    ```
+For more details, please check [VOTT](https://github.com/Microsoft/VoTT/tree/v1).
+
+#### [2.1Label image(VOTT) ]
 
 ## Project structure
 
