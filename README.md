@@ -4,7 +4,7 @@
 - [Introduction](#introduciton)
 - [Tutorial](#tutorial)
     - [Description](#Description)
-    - [1.Complie Darkent(AlexeyAB) on Linux](#1.Complie-Darkent(AlexeyAB)-on-Linux)
+    - [1.Complie Darkent(AlexeyAB) on Linux](#-1complie-darkent-alexeyab--on-linux-)
     - [Yolo_mark](#Yolo_mark)
     - [Project structure](#Project-structure)
     - [Lable image](#Lable-image)
