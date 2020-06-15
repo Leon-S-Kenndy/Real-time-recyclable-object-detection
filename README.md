@@ -219,8 +219,7 @@ I provide an APK file in `https://github.com/Leon-S-Kenndy/Real-time-recyclable-
 
 ## The performance of model
 Now, our best model is Yolov3-tiny-c4, the mAP of it is 83.51%. The average precision for each class is shown in the following picture:
-
-    ![result](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/result.png)
+![result](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/result.png)
 
 ## Custom model
 
