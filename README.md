@@ -4,11 +4,24 @@
 - [Introduction](#introduciton)
 - [Tutorial](#tutorial)
     - [Description](#Description)
-    - [Project structure](#project-structure)
-    - [Complie Darkent on Linux](#complie-darkent-on-linux)
-    - [Label Image](#label-image)
-    - [Begin train](#Begin-train)
-- [Now result](#Now-result)
+    - [Model training part](#model-training-part)
+     - [Complie Darkent on Linux](#complie-darkent-on-linux)
+     - [Label Image](#label-image)
+     - [Begin training](#begin-training)
+    - [App Part](#app-part)
+     - [1. Project Construction](#1-project-construction) 
+         - [1.1 Source Import](#11-source-import) 
+     - [2. Source code modification](#2-source-code-modification)
+         - [2.1 include folder](#21-include-folder)
+         - [2.2 src folder](#22-src-folder)
+     - [3. Cmake file configuration](#3-cmake-file-configuration)
+     - [4. asserts folder configuration](#4-asserts-folder-configuration)
+     - [5. JNI Interface Configuration](#5-jni-interface-configuration)
+     - [6. Java Configuration](#6-java-configuration)
+- [Now result](#now-result)
+ - [Download APP](#download-app)
+ - [The performance of model](#the-performance-of-model)
+ - [Custom model](#custom-model)
 
 # Introduction
 
@@ -23,12 +36,13 @@ The goals for this projects are:
 
 ## Description
 
-This part is a tutorial to teach you how to use the YOLO object detector to detect objects. In this project, the obejects are household wastes. According to Loughborough University's recycling rule we have 9 classes, batteries, Cans_Tins, Cardboard, cups, Glass, Paper, Plastics, FoodWaste, GeneralWaste.
+This part is a tutorial to teach you how to use the YOLO object detector to detect objects and how to move the model to the app. In this project, the obejects are household wastes. According to Loughborough University's recycling rule we have 9 classes, batteries, Cans_Tins, Cardboard, cups, Glass, Paper, Plastics, FoodWaste, GeneralWaste.
 
 For more details, look at [rules](https://www.charnwood.gov.uk/pages/green_recycling_bin) and [Right Stuff, Right Bin .pdf ](https://www.lboro.ac.uk/media/wwwlboroacuk/content/facilitiesmanagement/downloads/intranetdept/fmhealthsafety/Right%20Stuff,%20Right%20Bin%20.pdf)
 
-
-## Complie Darkent on Linux
+## Model training part
+This part is based on AlexeyAB's github repository.
+### Complie Darkent on Linux
 I recommend AlexeyAB's Darknet version because he added correct calculation of mAP, F1, IoU, Precision-Recall and can draw chart of average-Loss and accuracy-mAP during training and so many other things.
 
 I simply copy some guidlines from his github to teach you how to install darknet on linux. For more deatails, look at [Darkent](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-cmake)
@@ -49,7 +63,7 @@ $ ./darknet imtest data/eagle.jpg
 ```
 If you get a bunch of windows with eagles in them you've succeeded! 
 
-## Label image
+### Label image
 
 I use VOTT as the tool to label images. VOTT is an open-source annotation and labeling tool for image and video assets.
 
@@ -137,9 +151,9 @@ if __name__ == '__main__':
 This wil help you to change the size of image to 416 X 416. This will help you save time during training. `416 X 416` is defined in  yolov3-tiny.cfg as input width and height. You can change this to the size you like.
 
 
-## Begin train
+### Begin training
 
-1. Open file `yolov3-tiny.cfg` and:
+1. Here I use yolov3-tiny, so just open file `Real_time_recyclable_object_detection/cfg/yolov3-tiny.cfg` and:
 
   * change line batch to `batch=64`
   * change line subdivisions to `subdivisions=32`
@@ -156,21 +170,59 @@ This wil help you to change the size of image to 416 X 416. This will help you s
      
    To train on Linux use command: 
     ```
-    ./darknet detector train /home/leon/Downloads/Real_time_recyclable_object_detection/darknet2.data /home/leon/Downloads/Real_time_recyclable_object_detection/yolov3-tiny.cfg /home/leon/Downloads/Real_time_recyclable_object_detection/yolov3-tiny.conv.15 > /home/leon/Downloads/Real_time_recyclable_object_detection/trainInt.log -map
+   ./darknet detector train [directory]/obj.data directory/yolov3.cfg directory/yolov3-tiny.conv.15 -dont_show -mjpeg_port 8090 -map
     ```
+    
+    change [directory] to your own directory
+    
+## APP Part
+This part is based on huuuuusy's github repository.
+### 1. Project Construction
+
+#### 1.1 Source Import
+Build a project that supports C in Andorid Studio and download the source code from [Darknet] (https://github.com/pjreddie/darknet).
+
+Create a new darknet folder in the project project's cpp folder, and copy the example, include, src folders in the downloaded source code to the android project.
+
+And change the NDK version to NDK16.
+### 2. Source code modification
+
+#### 2.1 include folder
+
+The header file of the darknet is placed under the include folder
+
+#### 2.2 src folder
+
+The src folder is placed in the darknet source. First, delete the compare.c file (compare.c has no header file, which does not work for the compilation of the entire library. If you do not delete it, compare.c will have a pointer problem at compile time. ). Then modify the image.c file, change the label path in the 232-line load_alphabet() function to sdcard/yolo/data/labels (this is the absolute path that will be placed on the phone later, if you don't make changes, then there will be a problem that the labels cannot be imported, resulting in a flashback problem).
+
+### 3. Cmake file configuration
+
+For the Cmake configuration information in this project, please refer to the CMakeLists.txt file in the code.
+
+### 4. Asserts folder configuration
+
+Place the cfg,data file in the darknet source code in the assert folder of the project.
+
+### 5. JNI Interface Configuration
+
+This project mainly modifies the darknetlib.c file. The image test code is taken from the official code example of darknet/examples/dector.c Line562~Line626. Please refer to the project code and comments for details.
+
+### 6. Java Configuration
+
+Modify the Yolo.java under the java folder to complete the relevant configuration.
+
 # Now result
 
+## Download APP
 
-can run the original yolov3-tiny on Android to detect photos
-(Android settings NDK16 √ NDK21 ×)
+I provide a APK file in `https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/YOLOV3-on-Android/YoloRecycle.apk`, you can use it to download the app.
 
-To-do:
+## The performance of model
+Now, our best model is Yolov3-tiny-c4, the mAP of it is 83.51%. The average precision for each class is shown in the followning picture:
+    ![result](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/result.png)
 
-move the customed model to Android
+## Custom model
 
-provide settings for users when they face different rubbish bin
+In `custom` directory, I put the cfg file and the wights that I have tired, you can use it and the performance of each model can be seen in my [report](https://www.overleaf.com/read/kmjjbhmkqcgy).
 
-to detect video in real-time
-
-try to improve model
 
