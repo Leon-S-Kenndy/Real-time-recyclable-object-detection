@@ -214,8 +214,11 @@ Modify the Yolo.java under the java folder to complete the relevant configuratio
 # Now result
 
 ## Screenshot of runing APP
-<img src="https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/overviw.jpg"  width="495">
-<img src="https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/Danalyse.jpg"  width="495">
+
+<div align="center">
+<img src="https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/overviw.jpg"  width="395">
+<img src="https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/Danalyse.jpg"  width="395">
+</div>
 ## Download APP
 
 I provide an APK file in `https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/YOLOV3-on-Android/YoloRecycle.apk`, you can use it to download the app.
