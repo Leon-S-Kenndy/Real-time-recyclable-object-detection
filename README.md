@@ -21,7 +21,7 @@
 - [Now result](#now-result)
  - [Download APP](#download-app)
  - [The performance of model](#the-performance-of-model)
- - [Custom model and Dissertation](#custom-model)
+ - [Custom model and Dissertation](#custom-model-and-dissertation)
 
 # Introduction
 
