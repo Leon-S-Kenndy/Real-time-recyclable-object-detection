@@ -21,7 +21,7 @@
 - [Now result](#now-result)
  - [Download APP](#download-app)
  - [The performance of model](#the-performance-of-model)
- - [Custom model](#custom-model)
+ - [Custom model and Dissertation](#custom-model)
 
 # Introduction
 
@@ -228,7 +228,7 @@ I provide an APK file in `https://github.com/Leon-S-Kenndy/Real-time-recyclable-
 Now, our best model is Yolov3-tiny-c4, the mAP of it is 83.51%. The average precision for each class is shown in the following picture:
 ![result](https://github.com/Leon-S-Kenndy/Real-time-recyclable-object-detection/blob/master/doc/images/result.png)
 
-## Custom model and dissertation
+## Custom model and Dissertation
 
 In the `custom` directory, I put the cfg file and the wights that I have tired, you can use it and the performance of each model can be seen in my [dissertation](https://www.overleaf.com/read/kmjjbhmkqcgy).
 
